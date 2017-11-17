@@ -55,7 +55,7 @@ class Snake():
 
 
     def flip_head(self, screen):
-        #Рисуем в голову (кружек)
+        #Рисуем в голове (кружек)
         head = self.tail[-1]
         circle_pos = (head[0]*self.sn_setting.size_square+int(self.sn_setting.size_square/2)+1,
                       head[1]*self.sn_setting.size_square+int(self.sn_setting.size_square/2)+1)
